@@ -7,8 +7,6 @@ import Offer from '../Components/Home/offer';
 import DealBar from '../Components/Home/DealBar';
 import DiscontBar from '../Components/Home/DiscountBar';
 import Newsletter from '../Components/Home/Newsletter';
-import ContactUs from './contact';
-import AboutUs from './AboutUs';
 
  const Home = () => {
   return (
@@ -21,8 +19,7 @@ import AboutUs from './AboutUs';
             <DealBar/>
             <DiscontBar/>
             <Newsletter/>
-            <AboutUs/>
-            <ContactUs/>
+          
         </>
   )
 }
